@@ -94,7 +94,7 @@ for i in j:
     folium.Circle(
         location=[latitude, longtitude],
         radius=3,
-        popup=folium.Popup(folium.Html(popup_html(i), script=True),parse_html=False, max_width=500),
+        popup=folium.Popup(folium.Html(popup_html(i), script=True),parse_html=False, max_width="100%"),
         color='#3186cc',
         fill=True,
         fill_color='#3186cc'

@@ -207,7 +207,7 @@ def popup_imgaehtml(i):
     <!DOCTYPE html>
     <html>
     <tbody>
-    <img src=\""""+img+"""\">
+    <img src=\""""+img+"""\", width=800px>
     </tbody>
     </html>
     """

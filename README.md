@@ -8,7 +8,7 @@ To see the result, click [here](https://johnson1205.github.io/GIS/), or download
 I obtain related sources(like JSON) from https://ptx.transportdata.tw/MOTC/
 
 ## features
-### 0908 updates
+### 0902 updates
 Now support route image, you can open it by click the link in the route line
 ### 0901 updates(switch Visibility of routes)
 ![image](https://github.com/johnson1205/GIS/blob/main/img/2.jpg)

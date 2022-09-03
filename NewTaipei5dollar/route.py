@@ -1,5 +1,3 @@
-#https://ebus.gov.taipei/ProjectBus/DestinyBus
-
 import folium
 from lib2to3.pytree import convert
 import bs4, requests, os, json, folium, tqdm
@@ -38,20 +36,19 @@ for i in j5:
 
 buslist = ["249","575","581","587","666華梵大學","666烏塗窟","666皇帝殿","677正","677副","704","716","778","781","788","788海科館","788區","791","791繞貢寮","791經貢寮區衛生","795往平溪","795往木柵","795往十分寮","801","807","808","815","849","849屈尺社區","856","862","863","947","953","953區","965","966","981","紅26","藍41","藍41延和","綠12","橘20"]
 
-route.sort(key=lambda x:x[0])
-big_feature_group = folium.FeatureGroup(name="公車路線")
-big_feature_group.add_to(m)
 for i in route:
     if(i[0] in buslist):
         if(i[1]!=''):
-            feature_group = folium.FeatureGroup(name = i[0])
-            feature_group.add_to(big_feature_group)
+            feature_group = folium.FeatureGroup(name = i[0], show=False)
+            feature_group.add_to(m)
             folium.PolyLine(
                 locations=polyline.decode(i[1]),
                 popup=i[0],
                 weight=3,
                 color='red'
             ).add_to(feature_group)
+            print(i[0])
+            buslist.remove(i[0])
     
 
 

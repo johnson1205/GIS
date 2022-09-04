@@ -8,6 +8,12 @@ To see the result, click [here](https://johnson1205.github.io/GIS/), or download
 I obtain related sources(like JSON) from https://ptx.transportdata.tw/MOTC/
 
 ## features
+### 0904 updates
+Add the map of [bus special event in NewTaipei city.](https://ebus.gov.taipei/ProjectBus/DestinyBus)
+
+You can visit the map through the [link.](https://johnson1205.github.io/GIS/newtaipei5dollar/)
+![image](https://github.com/johnson1205/GIS/blob/main/7.png)
+
 ### 0902_1 updates
 **This version will not be uploaded to [https://johnson1205.github.io/GIS/](https://johnson1205.github.io/GIS/)**
 
